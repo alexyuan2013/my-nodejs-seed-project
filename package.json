@@ -1,0 +1,21 @@
+{
+  "name": "my-nodejs-seed-project",
+  "version": "1.0.0",
+  "description": "my nodejs seed project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prod": "set NODE_ENV=production&&set PORT=8005&&node index.js"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "promise": "^8.0.1",
+    "pug": "^2.0.0-rc.3",
+    "request": "^2.81.0",
+    "rotating-file-stream": "^1.2.2"
+  }
+}
